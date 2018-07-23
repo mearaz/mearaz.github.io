@@ -1,0 +1,390 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+    <meta name="format-detection" content="telephone=no" />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0, user-scalable=no, minimal-ui"/>
+
+    <!-- FONTS STUFFS -->
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.1/css/font-awesome.min.css" rel="stylesheet">
+    <link href="https://cdn.linearicons.com/free/1.0.0/icon-font.min.css"  rel="stylesheet" >
+    <link href='https://fonts.googleapis.com/css?family=Poppins:300,400,700' rel='stylesheet' type='text/css'>
+
+    <!-- CSS STUFFS -->
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous" rel="stylesheet">
+    <link href="css/idangerous.swiper.css" rel="stylesheet" type="text/css" />
+    <link href="css/style.css" rel="stylesheet" type="text/css" />
+    <link rel="stylesheet" href="css/w3.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <!-- jQuery Code -->
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
+	<script src="http://code.jquery.com/ui/1.9.2/jquery-ui.js"></script>
+    <script src="js/clipboard.min.js"></script>
+    
+
+    <!-- Your Server Website Icon (Favicon) -->
+
+    <link rel="shortcut icon" href="img/favicon.png" />
+    
+    <!-- Website Title (Will be shown on browser title) -->
+    
+  	<title>Havoc Anarchy</title>
+</head>
+<body>
+
+    <!-- LOADER -->
+    <div id="loader-wrapper">
+        <div id="loader"><span class="loader-inner"></span></div>
+        <div id="loading-text">LOADING...</div>
+    </div>
+
+<!-- Here is where you should start editing -->
+
+
+    <!-- HEADER (MENU + LOGO + IP BAR) -->
+    <header class="tt-header" style="z-index:1000">
+        <div class="container">
+            <div class="top-inner clearfix">
+                <div class="top-inner-container">
+                
+                <!-- LOGO -->
+                
+                    <a class="logo" href="index.html"><img src="img/header/logo.png" height="38" width="51" alt=""></a>
+                    <button class="cmn-toggle-switch"><span></span></button>
+                </div>
+            </div>
+            
+            <!-- MENU BAR -->
+            <div class="toggle-block">
+                <div class="toggle-block-container">
+                    <nav class="main-nav clearfix">
+                        <ul>
+                            <li><a href="index.html">Home</a></li>
+
+                            <li class="active">
+                            	<a href="about.html">About Us</a>
+                            </li>
+
+                            <!-- <li><a href="#">Forums</a></li> -->
+                            <li><a href="http://www.havocanarchy.buycraft.net">Server Shop</a></li>
+                            <li><a href="blog.html">Blog</a></li>
+                        </ul>
+                    </nav>
+                    
+                    <!-- Your Server IP Here (Or anything else)-->
+                    
+                    <div class="nav-more">                                                                                                          
+                        <a class="c-btn type-2" href="mc.havocanarchy.me"><span>mc.havocanarchy.me</span><button class="IsCopied btn234 w3-button w3-green">Copy</button></a> <!-- Place your server IP in script below -->
+
+                        
+    <script>
+
+
+    var clipboard = new Clipboard('.btn234', {
+        text: function() {
+            return 'mc.havocanarchy.me'; // Set your current server IP
+        }
+    });
+
+    clipboard.on('success', function(e) {
+        console.log(e);
+    });
+
+    clipboard.on('error', function(e) {
+        console.log(e);
+    });
+
+
+    $('.IsCopied').click(function(){
+        var $this = $(this);
+        $this.toggleClass('IsCopied');
+        if($this.hasClass('IsCopied')){
+            $this.text('Copy');         
+        } else {
+            $this.text('Copied');
+        }
+    });
+
+    </script>
+                       
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+    <div class="tt-header-margin"></div>    
+
+    <div id="content-wrapper">
+
+        
+        
+         <!-- BANNER -->
+        <div class="background-block" style="background-image:url(img/slider/about_header.jpg);">
+            <div class="container" >
+                <div class="empty-space marg-lg-b120 marg-sm-b50 marg-xs-b30"></div>
+                
+                <div class="tt-banner-img" style="z-index:999; right: 20%">
+                    <img class="img-responsive" src="img/slider/float_header.png" alt="">
+                   <br>
+               
+                <!-- Animated Cloud [WARNING: DOES NOT WORK WELL ON MOBILE DEVICES] (CAN BE DELETED) -->
+                <div class="cloud x1"></div>
+	            <div class="cloud x2" style="z-index:996"></div>  
+                
+                
+                </div>
+                
+                                 
+                <div class="row">
+                    <div class="col-sm-7 col-sm-offset-5">
+                     <h4 class="tt-banner-title c-h2"><small style="z-index:999">WE ARE THE LEADING ANARCHY SERVER </small></h4>
+                      
+                      <br>
+                        <a class="c-btn type-1 size-3 " href="http://www.havocanarchy.buycraft.net" style="z-index:999">DONATE</a>
+                   
+                   
+                  
+	                               
+                       
+                    </div>
+                </div>
+                <div class="empty-space marg-lg-b120 marg-sm-b50 marg-xs-b30"></div> 
+            </div>
+        </div>
+    </div>
+
+
+        
+        <div class="container">
+            <div class="empty-space marg-lg-b95 marg-sm-b50 marg-xs-b30"></div>
+
+
+            <!-- TT-TITLE -->
+            <div class="tt-title">
+                <div class="tt-title-cat">TEAM MEMBERS</div>
+                <h2 class="c-h2"><small></small></h2>
+            </div>
+            <div class="empty-space marg-lg-b40 marg-sm-b30"></div>         
+            
+            <!-- TT-SERVICE -->
+
+            <div class="row">
+            
+                <div class="col-md-4">   
+				<div class="card">
+				  <img src="img/about-us/profile-1.png" alt="Steve" style="width:100%">
+				  <br/><br/>
+				  	<p class="title">Miineral</p>
+				  <br/>
+				  	<h1>Owner</h1>
+				  <br/>
+				  	<a href=""><i class=""></i></a> <!-- Social Media Links (Remove If You'd Like) -->
+				  	<a href=""><i class=""></i></a> 
+				  	<a href=""><i class=""></i></a> 
+				  	<a href=""><i class=""></i></a> 
+				  <br/><br/>
+				</div>
+                </div>
+                <!--
+                <div class="col-md-4">
+                <div class="card">
+				  <img src="img/about-us/profile-2.png" alt="Alex" style="width:100%">
+				  <br/><br/>
+				  	<p class="title">Alex</p>
+				  <br/>
+				  	<h1>Moderator</h1>
+				  <br/>
+				  	<a href="#"><i class="fa fa-dribbble"></i></a> 
+				  	<a href="#"><i class="fa fa-twitter"></i></a> 
+				  	<a href="#"><i class="fa fa-linkedin"></i></a> 
+				  	<a href="#"><i class="fa fa-facebook"></i></a> 
+				  <br/><br/>
+				</div>
+                </div> 
+                    <div class="empty-space marg-sm-b30"></div>                   
+                </div>
+               -->
+                    </div>              
+                </div>                               
+            </div>
+        </div>
+        
+            
+            
+            
+            
+
+        <div class="empty-space marg-lg-b95 marg-sm-b50 marg-xs-b30"></div>        
+        <div class="tt-devider"></div>
+        <div class="empty-space marg-lg-b95 marg-sm-b50 marg-xs-b30"></div>
+
+       
+        <div class="container">
+            <!-- TT-TITLE -->
+            <div class="tt-title">
+                <h2 class="c-h2"><small>ENDLESS FUN IN AN ENDLESS LANDSCAPE</small></h2>
+            </div>
+            <div class="empty-space marg-lg-b40 marg-sm-b30"></div>         
+
+            <!-- TT-PARAGRAPH -->
+            <p>
+
+            	Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec in ultrices eros. Mauris pretium iaculis purus at elementum. Ut at hendrerit enim. Phasellus diam erat, rutrum eu sem vitae, dictum eleifend ipsum. Praesent pharetra lorem elit, porttitor commodo ex finibus in. Maecenas lobortis tincidunt enim quis vulputate. Morbi pulvinar urna rhoncus varius congue.
+
+            </p>
+          
+        </div>
+
+
+
+
+
+        <div class="empty-space marg-lg-b95 marg-sm-b50 marg-xs-b30"></div>
+
+
+        <div id="content-wrapper">
+
+        
+        
+         <!-- BOTTOM-BANNER -->
+        <div class="background-block" style="background-image:url(img/about-us/banner-2.jpg);">
+            <div class="container" >
+                <div class="empty-space marg-lg-b120 marg-sm-b50 marg-xs-b30"></div>
+                
+             
+                
+                                 
+                <div class="row">
+                    
+                 <div class="tt-title">
+                	<h2 class="c-h2" style="color:#fff"><small>EXPERIENCE AWAITS YOU.</small></h2><br/>
+                	<a class="c-btn type-1 size-3 " href="#" style="z-index:999">JOIN US IN COMMUNITY FORUMS(COMING SOON)</a>
+            	</div>
+
+                  
+	                               
+                       
+                    </div>
+                </div>
+                <div class="empty-space marg-lg-b120 marg-sm-b50 marg-xs-b30"></div> 
+            </div>
+        </div>
+    </div>
+
+
+
+
+  
+
+       
+        
+       
+
+
+    <!-- FOOTER -->
+    <footer class="tt-footer">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-6 col-md-3">
+                    <img src="img/header/logo.png" alt="">
+                    <div class="empty-space marg-lg-b25"></div>
+                    <div class="simple-text size-3 color-4">
+                        <p>Join the Server!</p>
+                    </div>
+                    <div class="empty-space marg-xs-b30"></div>
+                </div>
+                <div class="col-sm-6 col-md-3">
+                    <h5 class="c-h5 color-3">CONTACT US</h5>
+                    <div class="empty-space marg-lg-b10"></div>
+                   
+                    <div class="empty-space marg-lg-b25"></div>
+
+                    <div class="tt-address clearfix">
+                        <div class="tt-address-icon"><i class="fa fa-envelope-o" aria-hidden="true"></i></div>
+                        <div class="tt-address-info">
+                            <a href="mailto:mearazahmed@gmail.com" style="font-size: 15px">mearazahmed@gmail.com</a>
+                        </div>
+                    </div>
+                    <div class="empty-space marg-lg-b25"></div>
+
+                    <div class="tt-address clearfix">
+                        <div class="tt-address-icon"><i class="fa fa-phone" aria-hidden="true"></i></div>
+                        <div class="tt-address-info">
+                            <a href="tel:123456789" style="font-size: 15px">1-234-567-89</a>
+                        </div>
+                    </div>
+                    <div class="empty-space marg-lg-b40 marg-xs-b30"></div>
+
+                    <h5 class="c-h5 color-3">Get Social</h5>
+                    <div class="empty-space marg-lg-b10"></div>
+                    
+     <!-- Your Server's Social Network (If you don't have one of the Social Network Just delete the whole line -->
+     <!-- Replace # in tag <a href="#" to your social network links (DONT FORGET HTTP:// or HTTPS://)          -->
+                    
+                    <ul class="tt-social clearfix">
+                       <li><a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
+                       <li><a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
+                       <li><a href="#"><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
+                       <li><a href="#"><i class="fa fa-linkedin" aria-hidden="true"></i></a></li>
+                    </ul>
+                    <div class="empty-space marg-sm-b30"></div>                       
+                </div>
+                
+                <!-- Contact Form -->
+                
+                <div class="col-xs-12 col-md-6">
+                    <h5 class="c-h5 color-3">Contact Us</h5>
+                    <div class="empty-space marg-lg-b10"></div>
+                    <div class="simple-text size-3 color-4">
+                        <p>Found a bug? Have a Problem? Just Drop A Message Right Here and We'll be replying ASAP!</p>
+                    </div>
+                    <div class="empty-space marg-lg-b10"></div>
+
+                    <div class="tt-footer-form">
+                        <form action="mailto:mearazahmed@gmail.com" method="post" enctype="text/plain"> <!-- Enter Your Email Here -->
+                            <div class="row">
+                                <div class="col-sm-6">
+                                    <input class="c-input type-1" type="text" placeholder="Your Name">
+                                </div>
+                                <div class="col-sm-6">
+                                    <input class="c-input type-1" type="text" placeholder="Your Email">
+                                </div>
+                            </div>
+                            <textarea class="c-area type-1" placeholder="Your Message"></textarea>
+                            <br><br><br><br>
+                            <button class="w3-button w3-green">Submit</button>
+                        </form>
+                    </div>                    
+                </div>
+            </div>
+            <div class="empty-space marg-lg-b80 marg-sm-b50 marg-xs-b30"></div>
+        </div>
+        <div class="tt-footer-copy">
+            <div class="container">
+                <div class="simple-text size-5 color-4">
+                
+                <!-- Copyright Footer (Know What You Are Doing!)-->
+                
+                    <p>© 2018 Havoc Anarchy. All rights reserved.</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- JS (Don't Mess With It Unless You Know What You're Doing -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.2/jquery.min.js"></script> <!-- jQuery API -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script> <!-- Bootstrap -->
+    <script src="js/idangerous.swiper.min.js"></script> <!-- Swiper Slider -->
+    <script src="js/global.js"></script> <!-- Some Effect Stuffs -->
+</body>
+</html>
+
+<!-- That's A Wrap! You're Done Editing! -->
+
+
+<!-- Extra CSS Stuff (Don't want to mess up the main one)-->
+
